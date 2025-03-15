@@ -1,40 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computing Club</title>
-
-    <!-- google font link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-
-    <!-- the style sheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link  href="/Assignments/Assignment1/computing club/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
-<!-- Please remove all the comments before submission -->
-
 <body>
-    <!-- make sure you use semantic tags while creating the HTML -->
-    <!-- Example on how to add icon -->
-    <i class="fa fa-instagram"></i>
-
-    <!-- You are free to use the font you want, it doesn't have to be exact -->
-    <!-- Example shadow .. check the css -->
-
-    <!-- Get shadow from this lin -->
-    <!-- Just click on the box and copy then paste -->
-    <!-- https://getcssscan.com/css-box-shadow-examples -->
-
     <header>
-        <h1>Hello</h1>
+        <div class="header-container">
+            <div>
+            <img src="/Assignments/Assignment1/computing club/images/logo-light.jpg" alt="logo" class="logo">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            </div>
+            <h1>Hi, we are the Computing Club.<br>A QU Student Club</h1>
+            <p>Empowering innovation through technology and community.</p>
+            <div class="button-container">
+                <button class="btn contact-us">Contact Us</button>
+                <button class="btn about-us">About Us</button>
+            </div>
+            <div id="student"><img src="/Assignments/Assignment1/computing club/images/student.jpg" alt="student"></div>
+        </div>
+
     </header>
+    <main>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, veritatis.</p>
+        <div class="cards-container">
+            <div class="card">
+                <img src="/Assignments/Assignment1/computing club/images/activity-1.jpg">
+                <div class="card-content">
+                    <h2>Robo-Vision: Giving your robot eyes</h2>
+                    <p>The workshop will Build on the previous one and allow the students to do the practical implementation of the computer vision system using Python an OpenCV, and how to integrate them into robots using the ESP-32.</p>
+                    <div class="further-info">
+                        <span>QUCC</span>
+                        <span>Jan 17, 2022</span>
+                        <span>3 min</span>
+                    </div>
+                </div>
+            </div>
 
+            <div class="card">
+                <img src="/Assignments/Assignment1/computing club/images/activity-2.jpg">
+                <div class="card-content">
+                    <h2>Game Development</h2>
+                    <p>INTRO TO GAME DEV" is a series of workshops organized by QUCC that aims to help anyone take his/her first steps into games development, moreover, the attendees will learn the basics from installing the game engine to making their own game with the presence of a mentor who will help them on how they can add their creativity to their projects making each one special and different from the others, a serious of tutorials will be provided to follow with a progress timeline that leads to the final destination (a fully working game)</p>
+                    <div class="further-info">
+                        <span>QUCC</span>
+                        <span>Dec 10, 2021</span>
+                        <span>2 min</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Assignments/Assignment1/computing club/images/activity-3.jpg">
+                <div class="card-content">
+                    <h2>Security</h2>
+                    <p>Discover Cryptography : There's more to what meets the eye. Create awareness about cryptography in Qatar University. It is a workshop so that it is more engaging and fun.</p>
+                    <div class="further-info">
+                        <span>QUCC</span>
+                        <span>Nov 10, 2021 </span>
+                        <span>3 min</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Assignments/Assignment1/computing club/images/activity-4.png">
+                <div class="card-content">
+                    <h2>Web Dev</h2>
+                    <p>First event in the "Explore WebDev!" series. Aims to introduce students to the
+                        wonders of web development through a series of three events, with this one being the
+                        first. In this event, students will participate in creating the basis of a simple to do website and learn about the different elements available in HTML.</p>
+                    <div class="further-info">
+                        <span>QUCC</span>
+                        <span>Nov 28, 2021 </span>
+                        <span>4 min</span>
+                    </div>
+                </div>
+            </div>             
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <img src="/Assignments/Assignment1/computing club/images/logo-light.jpg" alt="Computing Club Logo" class="logo">
+            <p>Thanks for visiting our website. You can email us - <a href="mailto:computing.club@qu.edu.qa">computing.club@qu.edu.qa</a></p>
+            <div class="footer-links">
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Join us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Communication</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-copy">© Copyright 2023 CMPS350 Web Dev.</p>
+        </div>
+    </footer>
+    
 </body>
-
 </html>
